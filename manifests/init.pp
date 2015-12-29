@@ -11,9 +11,9 @@ class definer (
 ) {
 
     #defs can be set at either global or host level, therefore check to see if the hosts hash exists
-    if ($host != undef) {
+    if ($::host != undef) {
 
-        validate_hash($host)
+        validate_hash($::host)
 
         #if a host level "merge_defs" flag has been set use it, otherwise use the global flag
         $merge_definers = $host["${name}::merge_defs"] ? {
