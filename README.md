@@ -1,5 +1,6 @@
 Definer Module
 ==============
+[![Build Status](https://travis-ci.org/Adaptavist/puppet-definer.svg?branch=master)](https://travis-ci.org/Adaptavist/puppet-definer)
 
 The purpose of this module is to declare resources using hiera. This follows
 the philosophy that Puppet should be data driven as much as possible. In
